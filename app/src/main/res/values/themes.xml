@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="ActionBarTheme"
+        parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="ActionBarStyle"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/actionbar_bg</item>
+        <item name="titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    </style>
+
+    <!-- ActionBar TitleTextStyle -->
+    <style name="ActionBarTitleTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
